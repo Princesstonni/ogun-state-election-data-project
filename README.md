@@ -108,32 +108,32 @@ Top outliers (highest deviations) were reviewed per party.
 | PDP   | PU-089 (Ward 1)         | Sagamu            | 3.54          | PDP scored nearly triple the surrounding units’ average. |
 | NNPP  | PU-026                  | Ijebu North       | 3.12          | NNPP recorded unusually low votes compared to close neighbors. |
 
-🔍 Insights
+## Insights
 	•	Some units show strong deviations → possible inflation/suppression/reporting errors
 	•	Majority of units show normal patterns
 	•	Outliers should be flagged for deeper investigation
   
 
-⚠️ Limitations
+## Limitations
 	•	1 km radius may not reflect real catchment areas
 	•	Some coordinates needed manual correction
 	•	Analysis does not consider demographic or political context
 
 
-📌 Summary Insights
+## Summary Insights
 	•	Dataset is now fully cleaned, validated, and geocoded
 	•	Outlier detection offers strong leads for election audits
 	•	Demonstrates how modern analytics enhances election transparency
 
 
-✅ Recommendations
+## Recommendations
 	1.	Standardize data entry during elections
 	2.	Automate validation at point of data capture
 	3.	Conduct routine geospatial audits
 	4.	Encourage open data for analyst review
 
 
-🏁 Conclusion
+## Conclusion
 
 This project successfully prepared and analyzed the Ogun State election dataset using data cleaning, geospatial techniques, and statistical outlier detection.
 It contributes to improving election integrity, trust, and transparency in Nigeria.
