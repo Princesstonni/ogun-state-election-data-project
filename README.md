@@ -158,26 +158,35 @@ Top outliers (highest deviations) were reviewed per party.
 
 ## Insights
 	•	Some units show strong deviations → possible inflation/suppression/reporting errors
+	
 	•	Majority of units show normal patterns
+	
 	•	Outliers should be flagged for deeper investigation
   
 
 ## Limitations
 	•	1 km radius may not reflect real catchment areas
+	
 	•	Some coordinates needed manual correction
+	
 	•	Analysis does not consider demographic or political context
 
 
 ## Summary Insights
 	•	Dataset is now fully cleaned, validated, and geocoded
+	
 	•	Outlier detection offers strong leads for election audits
+	
 	•	Demonstrates how modern analytics enhances election transparency
 
 
 ## Recommendations
 	1.	Standardize data entry during elections
+	
 	2.	Automate validation at point of data capture
+	
 	3.	Conduct routine geospatial audits
+	
 	4.	Encourage open data for analyst review
 
 
@@ -185,6 +194,7 @@ Top outliers (highest deviations) were reviewed per party.
 
 This project successfully prepared and analyzed the Ogun State election dataset using data cleaning, geospatial techniques, and statistical outlier detection.
 It contributes to improving election integrity, trust, and transparency in Nigeria.
+
 
  📁 Project Structure
 
