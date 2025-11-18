@@ -8,14 +8,14 @@
 
 ## 📌 Project Overview
 
-This project focuses on improving the *accuracy, **consistency, and **transparency* of election data for *Ogun State, Nigeria*.
+This project focuses on improving the accuracy, consistency, and transparency* of election data for *Ogun State, Nigeria*.
 
 The work was completed in two major stages:
 
 1. *Data Cleaning & Preparation*  
 2. *Outlier Detection & Geospatial Analysis*
 
-The final output is a *clean, **geocoded, and **analysis-ready* dataset aimed at supporting the detection of possible electoral anomalies.
+The final output is a clean, geocoded, and analysis-ready dataset aimed at supporting the detection of possible electoral anomalies.
 
 ---
 
@@ -28,13 +28,61 @@ The final output is a *clean, **geocoded, and **analysis-ready* dataset aimed at
 
 ---
 
-## 📂 Dataset Overview
+ 📂 Dataset Overview
+The dataset used for this project contains detailed electoral information for 4,069 polling units across Ogun State, Nigeria. It includes demographic fields, voting results, and verification indicators required for transparency and analysis.
 
-The dataset contains:
+Dataset Size
+	•	Polling Units: 4,069
+	•	Columns: 19
+	•	Format: CSV, XLSX, PDF versions (cleaned & merged)
 
-- *4,069 polling units*
-- *19 columns* of electoral & verification-related information
-- 
+	
+	 🔑 Key Columns & Descriptions
+	 
+1. Polling Unit Details
+	•	PU-Code: Unique identifier for each polling unit
+	•	PU-Name: Name/description of the polling unit
+	•	LGA: Local Government Area
+	•	Ward: Administrative subdivision of the LGA
+
+2. Voter Information
+	•	Registered_Voters: Total number of voters registered at the unit
+	•	Accredited_Voters: Number of voters accredited on election day
+
+3. Party Vote Counts
+
+Vote totals for major political parties:
+	•	APC
+	•	LP
+	•	PDP
+	•	NNPP
+
+4. Verification Indicators
+
+These columns reflect integrity checks on the result sheets:
+	•	Result_Sheet_Stamped
+	•	Result_Sheet_Corrected
+	•	Result_Sheet_Invalid
+
+5. Geospatial Fields
+
+(Added during data preparation)
+	•	Latitude
+	•	Longitude
+
+These were essential for:
+	•	Neighbor identification
+	•	Geospatial clustering
+	•	Outlier detection
+
+
+📌 Purpose of the Dataset
+
+The dataset was analyzed to:
+	•	Clean and standardize election records
+	•	Assign accurate geocoordinates
+	•	Detect polling units with suspicious voting patterns
+	•	Improve transparency in electoral reporting
 
 ### Key Fields
 
@@ -137,3 +185,16 @@ Top outliers (highest deviations) were reviewed per party.
 
 This project successfully prepared and analyzed the Ogun State election dataset using data cleaning, geospatial techniques, and statistical outlier detection.
 It contributes to improving election integrity, trust, and transparency in Nigeria.
+
+ 📁 Project Structure
+
+Ogun-Election-Data-Analysis/
+│
+
+├── OGUN_with_coordinates (1).xlsx
+
+├── OGUN_crosschecked.csv
+
+├── Ogun_merged_dataset.pdf
+
+└── Ogun_State_Election_Report.pdf
