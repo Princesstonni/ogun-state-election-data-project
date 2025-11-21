@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project focuses on improving the accuracy, consistency, and transparency* of election data for *Ogun State, Nigeria*.
 
@@ -19,7 +19,7 @@ The final output is a clean, geocoded, and analysis-ready dataset aimed at suppo
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Clean and organize the Ogun State election dataset.  
 - Assign accurate geographic coordinates to each polling unit.  
