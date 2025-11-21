@@ -37,7 +37,7 @@ Dataset Size
 	•	Format: CSV, XLSX, PDF versions (cleaned & merged)
 
 	
-	 🔑 Key Columns & Descriptions
+	  Key Columns & Descriptions
 	 
 1. Polling Unit Details
 	•	PU-Code: Unique identifier for each polling unit
@@ -76,7 +76,7 @@ These were essential for:
 	•	Outlier detection
 
 
-📌 Purpose of the Dataset
+ Purpose of the Dataset
 
 The dataset was analyzed to:
 	•	Clean and standardize election records
@@ -95,31 +95,31 @@ The dataset was analyzed to:
 
 ---
 
-## 🔧 Data Cleaning & Preparation
+##  Data Cleaning & Preparation
 
-### ✔ Standardized Location Names  
+###  Standardized Location Names  
 Example: "OGUN" → "Ogun State, Nigeria"
 
-### ✔ Corrected Abbreviations  
+###  Corrected Abbreviations  
 Example: "PRY." → "PRIMARY"
 
-### ✔ Handled Missing/Ambiguous Entries  
+###  Handled Missing/Ambiguous Entries  
 Replaced "UNKNOWN" and similar placeholders.
 
-### ✔ Removed Duplicates & Extra Spaces  
+###  Removed Duplicates & Extra Spaces  
 
-### ✔ Validated Numeric Fields  
+###  Validated Numeric Fields  
 Ensured only valid numbers in key vote count columns.
 
 ---
 
-## 📘 Supporting Files
+##  Supporting Files
 This Google Sheet contains the calculations, geospatial formulas, neighbor detection, and additional cleaning steps used during this project.
 
 🔗 *Analysis Workbook (Google Sheets):* [Click here to view]
 https://docs.google.com/spreadsheets/d/1ldLBBhuCVobA6bvO6O3sjS73HfPalM3h/edit?usp=sharing&rtpof=true&sd=true
 
-## 🛠 Tools & Methods
+##  Tools & Methods
 
 - *Python (Pandas):* cleaning, validation, filtering  
 - *Geopy:* calculating distances for geospatial comparison  
